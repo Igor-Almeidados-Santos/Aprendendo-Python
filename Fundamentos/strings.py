@@ -26,3 +26,14 @@ multiplas
 linhas'''
 print(texto1)
 print(texto2)
+
+frase = 'Amanhã vou lá hoje!'
+
+print('am'in frase)#Considera-se a letra maiuscula então retorna um valor false.
+print('vou lá'in frase)
+
+print(len(frase))#tamanho da string
+print(frase.lower())#transforma em lowercase sem transformar a variável original
+print(frase.upper)#transforma em upercase sem transformar a variável original
+print(frase.split())#Separa as palavras da frase
+print(frase.split('v'))#quebra a partir de uma determinada letra
